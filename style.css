@@ -1,4 +1,12 @@
+.container:after{
+  clear: both;
+  display: table;
+  content: "";
+}
+
 nav{height: 100px;}
+
+.white{background-color: white;}
 
 .white .row .col-md-8 img {
   height: 100px;
@@ -17,3 +25,19 @@ nav{height: 100px;}
   transform:translate(-5%, -50%);
   margin: 0;
 }
+
+/* sezione blue sotto navbar */
+
+.blue{
+  background-color: #0248ff;
+}
+.pad-60-40{
+  padding:60px 40px;
+}
+
+/* sezione grigia con icone */
+
+.grey{background-color: #edf3fc;}
+
+.grey .container .row .col-md-2 img{width: 80%;
+h}
