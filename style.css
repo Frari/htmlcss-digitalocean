@@ -1,0 +1,19 @@
+nav{height: 100px;}
+
+.white .row .col-md-8 img {
+  height: 100px;
+}
+.col-md-8 ul, .col-md-8 ul li{
+  display:inline-block;
+}
+.but-cont{
+  position: relative;
+  height: 100px;
+}
+.button1{
+  position: absolute;
+  right:5%;
+  top: 50%;
+  transform:translate(-5%, -50%);
+  margin: 0;
+}
