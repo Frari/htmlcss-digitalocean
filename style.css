@@ -27,16 +27,51 @@ a, a:hover{
   top: 50%;
   transform:translate(-5%, -50%);
   margin: 0;
+  color: #0248ff;
+  border-color: #0248ff;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
+.butto1:hover{color: white;
+background-color: #0248ff;
+}
+.input-group{width: 300px;
+height: 100%;}
 
+.box-input{
+  padding: 40px;
+  border-radius: 5px;
+}
+.mar-t-20{
+  margin-top: 20px;
+}
+.btn{
+  width: 100%;
+}
+.input-group .green-but{background-color: #00c600;
+color: white;
+}
+.list-nav ul li{
+  padding: 0 10px;
+}
 /* sezione blue sotto navbar */
 
 .blue{
   background-color: #0248ff;
 }
-.pad-60-40{
-  padding:60px 40px;
+.pad-100-40{
+  padding:100px 40px;
 }
+.blue-row{
+  position: relative;
+}
+.box-welcome{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform:translate(-0%, -50%);
+}
+.white-box{float: right;}
 
 /* sezione grigia con icone */
 
@@ -45,8 +80,18 @@ a, a:hover{
 }
 .grey .container .row .col-md-2 img{
   width: 80%;
+  height: 75px;
 }
-
+.pad-20-0{
+  padding: 20px 0;
+}
+.text-big{
+  text-transform: uppercase;
+}
+/* parte bianca con tre testi a colonna */
+.pad-b-40{
+  padding-bottom: 40px;
+}
 /* parte grigia con immagine grande software */
 
 .screen{
@@ -67,7 +112,15 @@ hr{
 .text-grey{
   color: #8e9196;
 }
-
+/* parte blue sopra footer */
+.pad-40-0{
+  padding: 40px 0;
+}
+.footer-buttom{
+  width: 15%;
+  height: 50px;
+  color: #0248ff;
+}
  /* footer */
 
  .black{
