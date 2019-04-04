@@ -46,4 +46,21 @@ nav{height: 100px;}
 
 /* parte grigia con immagine grande software */
 
-.screen{width:100%;}
+.screen{
+  width:100%;
+}
+
+/* parte blue scuro con lista città */
+
+.dark-blue{
+  background-color:#03317a;
+}
+hr{
+  margin: 0 0 10px 0;
+}
+.text-white{
+  color: white;
+}
+.text-grey{
+  color: #8e9196;
+}
