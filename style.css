@@ -37,7 +37,13 @@ nav{height: 100px;}
 
 /* sezione grigia con icone */
 
-.grey{background-color: #edf3fc;}
+.grey{
+  background-color: #edf3fc;
+}
+.grey .container .row .col-md-2 img{
+  width: 80%;
+}
 
-.grey .container .row .col-md-2 img{width: 80%;
-h}
+/* parte grigia con immagine grande software */
+
+.screen{widht:50%;}
