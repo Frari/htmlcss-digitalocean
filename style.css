@@ -6,6 +6,9 @@
 
 nav{height: 100px;}
 
+a, a:hover{
+  text-decoration: none;
+}
 .white{background-color: white;}
 
 .white .row .col-md-8 img {
@@ -62,5 +65,29 @@ hr{
   color: white;
 }
 .text-grey{
+  color: #8e9196;
+}
+
+ /* footer */
+
+ .black{
+   background-color: black;
+ }
+ .small-logo{
+   width: 50px;
+ }
+.list-loghi, .list-footer{
+padding: 0;
+list-style-type: none;
+}
+.list-loghi li{
+  display: inline-block;
+  padding: 20px 5px;
+}
+.list-loghi li a i,
+.list-footer li a {
+  color: #8e9196;
+}
+.list-footer li{
   color: #8e9196;
 }
