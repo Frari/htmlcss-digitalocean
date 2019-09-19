@@ -70,7 +70,8 @@ background-color: #0248ff;
   margin-top:100px;
  }
 .blue{
-  background-color: #0248ff;
+  /* background-color: #0248ff; */
+  background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');  
 }
 .pad-100-40{
   padding:100px 40px;
